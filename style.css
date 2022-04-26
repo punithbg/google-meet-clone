@@ -1,0 +1,98 @@
+body{
+    background: rgba(26, 26, 26, 1);
+    color:White;
+    box-sizing: content-box;
+}
+
+main{
+    margin-top:1rem;
+    display:flex;
+    width:95%;
+    height:95%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+footer{
+    display: flex;
+    width:95%;
+    height:5%;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    height: 95%;
+    margin:0 auto;
+}
+
+.main-content-left{
+    width:73%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-content-right{
+    width:25%;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.card{
+    padding:0.5rem;
+    width:22%;
+    height: 28%;
+    background-color: rgba(84, 84, 84, 1);
+    border-radius: 0.5rem;
+    transition: transform .2s ease-in-out;
+}
+
+.mute{
+    background-color:rgba(26, 26, 26, 1) ;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-image{
+    width:60px;
+    height:60px;
+}
+
+.flex-center{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content-middle >img{
+    background:rgba(84, 84, 84, 1); 
+    padding:10px;
+    border-radius: 50%;
+    margin:0 5px;
+    width:20px;
+    height: 20px;
+}
+
+.footer-content-end > img{
+    padding:10px;
+
+    margin:0 5px;
+    width:20px;
+    height: 20px;
+}
+.footer-icons{
+    transition: transform .2s ease-in-out;
+}
+.card:hover,
+.footer-icons:hover{
+    transform: scale(1.05);
+    border: 1px solid lightblue;
+}
